@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOS Conserte Assistência Técnica | Campinas</title>
+<meta name="description" content="Assistência técnica de aparelhos elétricos e ferramentas elétricas em Campinas. Venda de utilidades domésticas e materiais elétricos. Instalações.">
+<style>
+  :root { --azul:#0b2a6f; --azul2:#1747b8; --amarelo:#ffc700; --claro:#f5f7fc; --texto:#1a1f36; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  html { scroll-behavior:smooth; }
+  body { font-family:Arial, Helvetica, sans-serif; color:var(--texto); background:#fff; line-height:1.6; }
+  header { background:var(--azul); color:#fff; position:sticky; top:0; z-index:10; box-shadow:0 2px 8px rgba(0,0,0,.25); }
+  .nav { max-width:1100px; margin:auto; padding:14px 20px; display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; }
+  .logo { font-weight:800; font-size:1.3rem; letter-spacing:.5px; }
+  .logo span { color:var(--amarelo); }
+  nav a { color:#fff; text-decoration:none; margin-left:18px; font-size:.95rem; }
+  nav a:hover { color:var(--amarelo); }
+  .hero { background:linear-gradient(135deg,var(--azul) 0%,var(--azul2) 100%); color:#fff; text-align:center; padding:80px 20px; }
+  .hero h1 { font-size:2.4rem; margin-bottom:14px; }
+  .hero h1 span { color:var(--amarelo); }
+  .hero p { max-width:640px; margin:0 auto 28px; font-size:1.1rem; }
+  .btn { display:inline-block; background:var(--amarelo); color:var(--azul); font-weight:800; padding:14px 30px; border-radius:50px; text-decoration:none; font-size:1.05rem; box-shadow:0 4px 14px rgba(0,0,0,.25); transition:transform .15s; }
+  .btn:hover { transform:translateY(-2px); }
+  section { max-width:1100px; margin:auto; padding:60px 20px; }
+  h2 { color:var(--azul); font-size:1.9rem; text-align:center; margin-bottom:8px; }
+  .sub { text-align:center; color:#555; margin-bottom:36px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:20px; }
+  .card { background:var(--claro); border-top:5px solid var(--amarelo); border-radius:12px; padding:26px 20px; text-align:center; box-shadow:0 2px 8px rgba(0,0,0,.06); }
+  .card .ico { font-size:2.2rem; margin-bottom:10px; }
+  .card h3 { color:var(--azul); margin-bottom:6px; }
+  .faixa { background:var(--claro); }
+  .aviso { background:#fff8d6; border-left:5px solid var(--amarelo); padding:16px 20px; border-radius:8px; max-width:760px; margin:30px auto 0; font-size:.95rem; }
+  .horarios { max-width:420px; margin:auto; background:#fff; border-radius:12px; padding:20px 26px; box-shadow:0 2px 8px rgba(0,0,0,.08); }
+  .horarios div { display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid #e6e9f2; }
+  .horarios div:last-child { border:none; }
+  .fechado { color:#c0392b; font-weight:700; }
+  .contato { background:var(--azul); color:#fff; text-align:center; max-width:none; }
+  .contato h2 { color:var(--amarelo); }
+  .contato p { margin-bottom:22px; }
+  footer { background:#071a47; color:#cfd6ee; text-align:center; padding:20px; font-size:.9rem; }
+  .whats-flutuante { position:fixed; right:18px; bottom:18px; background:#25d366; color:#fff; width:60px; height:60px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:1.8rem; text-decoration:none; box-shadow:0 4px 14px rgba(0,0,0,.35); z-index:20; }
+  @media(max-width:600px){ .hero h1{font-size:1.8rem;} nav a{margin-left:10px;} }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="logo">SOS <span>CONSERTE</span></div>
+    <nav>
+      <a href="#servicos">Serviços</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#horario">Horário</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <h1>Seu aparelho com defeito?<br><span>A gente conserta!</span></h1>
+  <p>Assistência técnica de aparelhos elétricos e ferramentas elétricas em Campinas. Rapidez, honestidade e garantia no serviço.</p>
+  <a class="btn" href="https://wa.me/5519996465544?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank">Pedir orçamento no WhatsApp</a>
+</div>
+
+<section id="servicos">
+  <h2>O que consertamos</h2>
+  <p class="sub">Assistência técnica especializada em pequenos aparelhos e ferramentas</p>
+  <div class="grid">
+    <div class="card"><div class="ico">🍳</div><h3>Eletrodomésticos de cozinha</h3><p>Liquidificador, batedeira, sanduicheira, fritadeira e outros.</p></div>
+    <div class="card"><div class="ico">🔧</div><h3>Ferramentas elétricas</h3><p>Furadeira, esmerilhadeira, serra e demais ferramentas.</p></div>
+    <div class="card"><div class="ico">💇</div><h3>Chapinha e secador</h3><p>Chapinhas, secadores de cabelo e outros aparelhos de beleza.</p></div>
+    <div class="card"><div class="ico">🧹</div><h3>Aspirador de pó</h3><p>Reparo e manutenção de aspiradores de pó.</p></div>
+    <div class="card"><div class="ico">🔌</div><h3>Instalações elétricas</h3><p>Instalação de aparelhos elétricos com segurança.</p></div>
+    <div class="card"><div class="ico">🛒</div><h3>Utilidades e materiais</h3><p>Venda de utilidades domésticas e materiais elétricos.</p></div>
+  </div>
+  <div class="aviso"><strong>Importante:</strong> não realizamos conserto de geladeira, máquina de lavar, televisão e notebook.</div>
+</section>
+
+<div class="faixa">
+<section id="sobre">
+  <h2>Sobre a SOS Conserte</h2>
+  <p class="sub">Sua assistência técnica de confiança em Campinas</p>
+  <p style="max-width:760px;margin:auto;text-align:center;">Somos assistência técnica de aparelhos elétricos e ferramentas elétricas. Também vendemos utilidades domésticas e materiais elétricos, e fazemos instalações de aparelhos elétricos. Traga seu aparelho ou fale com a gente pelo WhatsApp e receba um orçamento.</p>
+</section>
+</div>
+
+<section id="horario">
+  <h2>Horário de atendimento</h2>
+  <p class="sub">Estamos esperando por você</p>
+  <div class="horarios">
+    <div><span>Segunda a sexta</span><strong>09:00 – 18:00</strong></div>
+    <div><span>Sábado</span><strong>09:00 – 12:00</strong></div>
+    <div><span>Domingo</span><span class="fechado">Fechado</span></div>
+  </div>
+</section>
+
+<section class="contato" id="contato">
+  <h2>Fale com a gente</h2>
+  <p>Chame no WhatsApp e peça seu orçamento sem compromisso.<br><strong>(19) 99646-5544</strong></p>
+  <a class="btn" href="https://wa.me/5519996465544?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank">Chamar no WhatsApp</a>
+</section>
+
+<footer>© SOS Conserte Assistência Técnica · Campinas – SP</footer>
+
+<a class="whats-flutuante" href="https://wa.me/5519996465544" target="_blank" aria-label="WhatsApp">💬</a>
+
+</body>
+</html>
